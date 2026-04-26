@@ -1,6 +1,6 @@
 ## Overview
 
-This project presents the design and development of a solar-powered autonomous glider with AI-based monitoring capabilities. The system integrates renewable energy, embedded electronics, and flight control to enable efficient and long-endurance aerial operation.
+This project presents the design and development of a solar-powered autonomous glider with futur AI-based monitoring capabilities. The system integrates renewable energy, embedded electronics, and flight control to enable efficient and long-endurance aerial operation.
 
 ![Solar Glider](https://github.com/user-attachments/assets/b6b901fc-1503-4f5c-ac58-f5eaf1de84e6)
 
@@ -46,7 +46,6 @@ Solar panels generate energy during flight and charge the battery through an MPP
 
 * `firmware/` → Pixhawk configuration and companion control code
 * `hardware/` → Wiring diagrams and system design
-* `cad/` → 3D models of the glider
 * `docs/` → Documentation and design explanations
 * `bom.csv` → Bill of materials
 
