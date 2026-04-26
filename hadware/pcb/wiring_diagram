@@ -1,0 +1,46 @@
++--------------------------------------------------------------+
+|                                                              |
+|   ☀️ SOLAR INPUT                                              |
+|   +   -                                                      |
+|   |   |                                                      |
+|   |   |        [ CN3722 MPPT ]                               |
+|   |   +-------> [ MPPT MODULE ]                              |
+|   |              |       |                                   |
+|   |           BAT+     BAT-                                  |
+|   |              |       |                                   |
+|   |        +-------------------+                             |
+|   |        |  LiPo Battery     | (3S 11.1V)                  |
+|   |        +-------------------+                             |
+|   |              |       |                                   |
+|   |              |       |                                   |
+|   |       +---------------------+                            |
+|   |       | Power Distribution  |                            |
+|   |       +---------------------+                            |
+|   |          |      |       |                                |
+|   |          |      |       |                                |
+|   |          |      |       +--> ESC (Motor - High Current)  |
+|   |          |      |                                        |
+|   |          |      +--> UBEC (5V 3A) --> Servo Rail         |
+|   |          |                                        |
+|   |          +--> Power Module --> Pixhawk Power Input       |
+|   |                                                              |
+|   |   +---------------------------+                              |
+|   |   |       Pixhawk             |                              |
+|   |   |                           |                              |
+|   |   |  GPS Port     TELEM Port  |                              |
+|   |   |  IMU (internal)           |                              |
+|   |   +---------------------------+                              |
+|   |        |    |    |    |                                      |
+|   |        |    |    |    |                                      |
+|   |      Servo Outputs (1–4)                                     |
+|   |        |    |    |    |                                      |
+|   |      AIL  ELE  RUD  ESC Signal                              |
+|   |                                                              |
+|   |   📡 GPS Module  ---> GPS Port                               |
+|   |   📡 Telemetry  ---> TELEM Port                              |
+|   |                                                              |
+|   |   📷 Camera (OPTIONAL)                                       |
+|   |        VCC, GND                                              |
+|   |        VIDEO ---> FPV Transmitter / Processor                |
+|   |                                                              |
++--------------------------------------------------------------+
