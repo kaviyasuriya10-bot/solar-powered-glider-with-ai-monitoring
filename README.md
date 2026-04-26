@@ -6,6 +6,11 @@ This project presents the design and development of a solar-powered autonomous g
 
 The glider uses solar panels to supplement battery power, extending flight duration while reducing dependence on ground charging. A flight controller manages stabilization and navigation, while onboard electronics monitor system performance in real time.
 
+## Airframe Design
+
+![Airframe](images/airframe.png)
+
+This diagram shows the structural layout of the glider including fuselage, wings, and tail assembly designed for aerodynamic efficiency and component integration
 ---
 
 ## Key Features
