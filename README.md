@@ -71,10 +71,13 @@ This project is currently in the design and prototyping phase. Hardware integrat
 To develop a low-cost, efficient, and scalable solar-powered UAV platform for research, learning, and real-world applications.
 
 ## NOTE:
-*Some basic components like connectors and wiring are already available and not included in the cost.
-*other components like GPS,gyro sensor,barometer,altitude sensor and some other
-*The solar panels are used to supplement battery power and extend flight time, not to fully power the aircraft.
-*solar panels sourced locally at reduced cost
+Some basic components like connectors and wiring are already available and not included in the cost.
+
+other components like GPS,gyro sensor,barometer,altitude sensor and some other
+
+The solar panels are used to supplement battery power and extend flight time, not to fully power the aircraft.
+
+solar panels sourced locally at reduced cost
 
 ## Badges Justification
 
