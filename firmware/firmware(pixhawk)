@@ -1,0 +1,137 @@
+# Pixhawk Firmware – Solar Powered AI Glider
+
+## Overview
+
+The aircraft uses the ArduPlane firmware from ArduPilot running on a Pixhawk flight controller.
+
+This firmware enables stable, autonomous, and efficient flight for a solar-powered fixed-wing glider by integrating sensor data and controlling flight surfaces in real time.
+
+---
+
+## Core Capabilities
+
+The firmware provides:
+
+* Autopilot stabilization
+* Sensor fusion (IMU, GPS, barometer, compass)
+* Multiple flight modes
+* Telemetry communication
+* Mission planning and waypoint navigation
+* Failsafe and return-to-launch (RTL) safety features
+
+It converts pilot inputs and mission commands into real-time control signals for the aircraft.
+
+---
+
+## Control Outputs
+
+The Pixhawk generates PWM signals to control:
+
+| Output  | Component            |
+| ------- | -------------------- |
+| SERVO 1 | Aileron              |
+| SERVO 2 | Elevator             |
+| SERVO 3 | Rudder               |
+| SERVO 4 | ESC (Motor throttle) |
+
+---
+
+## Sensor Inputs
+
+The flight controller reads data from:
+
+* IMU → Orientation and stabilization
+* GPS → Position and velocity
+* Barometer → Altitude estimation
+* Compass → Heading direction
+
+---
+
+## Flight Modes Used
+
+| Mode      | Purpose                         |
+| --------- | ------------------------------- |
+| Manual    | Full pilot control              |
+| Stabilize | Assisted manual flight          |
+| FBWA      | Angle-limited stabilized flight |
+| Auto      | Fully autonomous mission        |
+| RTL       | Return-to-launch safety mode    |
+
+---
+
+## Why ArduPlane?
+
+ArduPlane is ideal for this project because it supports:
+
+* Fixed-wing aircraft
+* Autonomous flight missions
+* Gliding and motor-assisted flight
+* Real-time telemetry and logging
+* Robust failsafe systems
+
+This makes it well-suited for research and prototype UAV development.
+
+---
+
+## Ground Control Software
+
+Mission planning and configuration are performed using Mission Planner.
+
+This software is used to:
+
+* Upload firmware
+* Calibrate sensors
+* Configure flight modes
+* Upload autonomous missions
+* Monitor telemetry and logs
+
+---
+
+## Firmware Installation Steps
+
+1. Connect Pixhawk to a computer via USB
+2. Open Mission Planner
+3. Navigate to "Install Firmware"
+4. Select "ArduPlane"
+5. Wait for firmware flashing to complete
+
+---
+
+## Safety & Failsafe Features
+
+The system includes:
+
+* Low battery Return-to-Launch (RTL)
+* Loss of signal failsafe
+* GPS failsafe
+* Geofence protection
+
+These features ensure safe and reliable autonomous operation.
+
+---
+
+## Solar Integration
+
+The glider integrates a solar charging system using an MPPT controller (CN3722).
+
+* Solar panels provide supplementary power during flight
+* Battery voltage is monitored by the flight controller
+* Future integration will include solar-aware flight optimization
+
+---
+
+## Future Improvements
+
+Planned upgrades include:
+
+* AI-based object tracking
+* Advanced gliding efficiency optimization
+* Solar power telemetry monitoring
+* Autonomous landing system
+* Hybrid control with onboard AI processor
+
+---
+
+## Project Status
+
+This firmware configuration represents a prototype-stage implementation. Further tuning and testing will be required after hardware integration.
