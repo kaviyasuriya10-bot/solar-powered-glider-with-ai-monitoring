@@ -47,8 +47,6 @@ Solar panels generate energy during flight and charge the battery through an MPP
 * `docs/` → Documentation and design explanations
 * `bom.csv` → Bill of materials
 
-(https://www.eclipson-airplanes.com/_files/ugd/f2f22d_e23a7729de954317890bd4dba99b989c.pdf)
-
 ---
 
 ## Project Status
